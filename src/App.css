@@ -1,45 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.link{
-  margin-left: 20px;
-}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -54,64 +12,10 @@
   justify-content: space-between;
 }
 
-.left-bar {
-  width: 100%;
-  max-width: 200px;
-  background-color: #047420;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
 
-.left-bar__list li {
-  list-style-type: none;
-  color: azure;
-  text-decoration: none;
-  font-size: 23px;
-  margin-bottom: 5px;
-}
 
-.left-bar__top {
-  margin-top: 20px;
-}
 
-.left-bar__list a {
-  text-decoration: none;
-}
 
-.left-bar__list {
-  padding: 0;
-  margin-left: 20px;
-}
 
-.right-bar {
-  width: 100%;
-  margin-left: 20px;
-  color: azure;
-}
-
-.right-bar__ava {
-  width: 100%;
-  height: 200px;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.qwerty {
-  background-color: #047420;
-}
-
-.header {
-  background-color: #047420;
-  padding: 5px 20px;
-  margin-bottom: 20px;
-}
-
-.header__img {
-  height: 50px;
-}
 /* test commi mumber two */
 /*# sourceMappingURL=style.css.map */
