@@ -1,0 +1,17 @@
+.right_bar {
+    width: 100%;
+    margin-left: 20px;
+    color: azure;
+}
+
+.right_bar__ava {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.qwerty {
+    background-color: #047420;
+    padding-bottom: 30px;
+}

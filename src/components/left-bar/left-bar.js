@@ -1,7 +1,9 @@
+import s from"./left-bar.module.css";
+
 const LeftBar = () => {
   return (
-    <div class="left-bar">
-      <ul class="left-bar__list">
+    <div className={s.leftbar}>
+      <ul class={ `${s.leftbar__list} `}>
         <a href="#">
           <li>Profile</li>
         </a>
@@ -15,7 +17,7 @@ const LeftBar = () => {
           <li>Music</li>
         </a>
         <a href="#">
-          <li class="left-bar__top">Settings</li>
+          <li class={s.leftbar__top}>Settings</li>
         </a>
       </ul>
     </div>

@@ -1,17 +1,20 @@
+import MyPost from "./MyPosts/MyPosts";
+import s from "./right-bar.module.css";
+
 const RightBar = () => {
   return (
-    <div class="right-bar">
+    <div class={s.right_bar}>
       <div class="right-bar__function">
         <div class="right-bar__profile">
           <div class="logo">
             <img
               src="https://www.iphones.ru/wp-content/uploads/2021/12/macbook-pro-2021-16-inch-m1-pro-max-impressions-iphonesru-12-2.jpeg"
               alt=""
-              class="right-bar__ava"
+              class={s.right_bar__ava}
             />
           </div>
 
-          <div class="qwerty">
+          <div class={s.qwerty}>
             <h1 class="right-bar__title">Dmitry K.</h1>
             <div class="right-bar__info">
               <ul class="right-bar__ul">
@@ -27,14 +30,7 @@ const RightBar = () => {
               </ul>
             </div>
 
-            <div class="right-bar__post">
-              <h1 class="right-bar__title">My Post</h1>
-              <input type="text" placeholder="your news..." />
-              <button class="right-bar__btn">Send</button>
-            </div>
-            <div class="right-bar__task">
-              <p class="right-bar__task-txt">Hey, why nobody love me</p>
-            </div>
+            <MyPost />
           </div>
         </div>
       </div>
