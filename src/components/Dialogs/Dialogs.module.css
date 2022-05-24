@@ -1,0 +1,30 @@
+.dialogs{
+    background-color: #047420;
+    color: azure;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.dialogs__items{
+    margin-left: 100px;
+}
+.dialog{
+    margin-bottom: 10px;
+}
+.massages__items{
+    margin-right: 400px;
+}
+
+.massage__img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.massage__block{
+    flex: 2;
+    display: flex;
+    flex-direction: row-reverse;
+}
+

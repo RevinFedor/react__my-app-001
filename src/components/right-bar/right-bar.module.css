@@ -1,10 +1,10 @@
 .right_bar {
     width: 100%;
-    margin-left: 20px;
     color: azure;
 }
 
 .right_bar__ava {
+    border-radius: 10px;
     width: 100%;
     height: 200px;
     -o-object-fit: cover;
@@ -14,4 +14,6 @@
 .qwerty {
     background-color: #047420;
     padding-bottom: 30px;
+    border-radius: 10px;
+    padding: 0px 0 10px 10px;
 }

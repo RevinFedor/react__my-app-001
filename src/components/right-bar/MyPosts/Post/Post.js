@@ -10,6 +10,7 @@ const Post = (props) => {
       />
 
       <p class={s.right_bar__task_txt}> {props.massage} </p>
+      <p class={s.right_bar__task_txt}> {props.like} </p>
     </div>
   );
 };
