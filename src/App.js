@@ -9,47 +9,15 @@ import RightBar from "./components/right-bar/right-bar";
  
 const App = (props) => {
   return (
-    <BrowserRouter>
-      <div className="wrap">
-        <div className="container">
-          <Header />
-          <div className="wrap-inner">
-            <LeftBar />
-            <Routes>
-              <Route
-                path="/profile"
-                element={
-                  <RightBar
-                    
-                    // RigthBarPage={props.AppState.RigthBarPage}
-                    // dispatch={props.dispatch}
-                  />
-                }
-              />
-              <Route
-                path="dialogs/*"
-                element={
-                  <DialogsContainer />
-                }
-              />
-              <Route
-                path="News/*"
-                
-              />
-              <Route
-                path="Music/*"
-                
-              />
-              <Route
-                path="Settings/*"
-                
-              />
-              {/* <Route
-                path="/Friends/*"
-                element={<Friends state={props.AppState.friendsPage} />}
-              /> */}
-            </Routes>
-          </div>
+  
+const App = () => {
+  return (
+    <div className="wrap">
+      <div className="container">
+        <Header />
+        <div className="wrap-inner">
+          <LeftBar />
+          <RightBar />
         </div>
       </div>
     </BrowserRouter>

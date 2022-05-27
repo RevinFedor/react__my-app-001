@@ -1,10 +1,17 @@
 .right_bar {
     width: 100%;
+<<<<<<< HEAD
+=======
+    margin-left: 20px;
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
     color: azure;
 }
 
 .right_bar__ava {
+<<<<<<< HEAD
     border-radius: 10px;
+=======
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
     width: 100%;
     height: 200px;
     -o-object-fit: cover;
@@ -14,6 +21,9 @@
 .qwerty {
     background-color: #047420;
     padding-bottom: 30px;
+<<<<<<< HEAD
     border-radius: 10px;
     padding: 0px 0 10px 10px;
+=======
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
 }

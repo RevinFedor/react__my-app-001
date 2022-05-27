@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
 import MyPostContainer from "./MyPosts/MyPostsContainer";
 import s from "./right-bar.module.css";
 import React from "react";
 const RightBar = (props) => {
   
+=======
+import MyPost from "./MyPosts/MyPosts";
+import s from "./right-bar.module.css";
+
+const RightBar = () => {
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
   return (
     <div class={s.right_bar}>
       <div class="right-bar__function">
@@ -18,8 +25,11 @@ const RightBar = (props) => {
             />
           </div>
 
+<<<<<<< HEAD
           {/* Профиль пользователя */}
 
+=======
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
           <div class={s.qwerty}>
             <h1 class="right-bar__title">Dmitry K.</h1>
             <div class="right-bar__info">
@@ -36,12 +46,16 @@ const RightBar = (props) => {
               </ul>
             </div>
 
+<<<<<<< HEAD
             <MyPostContainer
               
               // postData={props.RigthBarPage.postData}
               // dispatch={props.dispatch}
               // newPostText={props.RigthBarPage.newPostText}
             />
+=======
+            <MyPost />
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
           </div>
         </div>
       </div>

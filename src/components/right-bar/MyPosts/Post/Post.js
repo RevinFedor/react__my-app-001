@@ -1,5 +1,9 @@
 import s from "./Post.module.css";
+<<<<<<< HEAD
 import React from "react";
+=======
+
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
 const Post = (props) => {
   return (
     <div class={s.right_bar__task}>
@@ -10,7 +14,10 @@ const Post = (props) => {
       />
 
       <p class={s.right_bar__task_txt}> {props.massage} </p>
+<<<<<<< HEAD
       <p class={s.right_bar__task_txt}> {props.like} </p>
+=======
+>>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
     </div>
   );
 };
