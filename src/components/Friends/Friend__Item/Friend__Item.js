@@ -1,5 +1,5 @@
 import s from "./Friend__Item.module.css";
-
+import React from "react";
 const Friend__Item = (props) => {
   return (
     <div className={s.Friend__Item_block}>

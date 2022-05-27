@@ -1,6 +1,7 @@
-import MyPost from "./MyPosts/MyPosts";
-import s from "./right-bar.module.css";
 
+import MyPostContainer from "./MyPosts/MyPostsContainer";
+import s from "./right-bar.module.css";
+import React from "react";
 const RightBar = (props) => {
   
   return (
@@ -35,11 +36,11 @@ const RightBar = (props) => {
               </ul>
             </div>
 
-            <MyPost
-              postData={props.state.postData}
-              addPost={props.addPost}
-              newPostText={props.state.newPostText}
-              updateNewPostText={props.updateNewPostText}
+            <MyPostContainer
+              
+              // postData={props.RigthBarPage.postData}
+              // dispatch={props.dispatch}
+              // newPostText={props.RigthBarPage.newPostText}
             />
           </div>
         </div>

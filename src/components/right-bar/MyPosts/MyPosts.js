@@ -1,6 +1,9 @@
 import Post from "./Post/Post";
 import React from "react";
 
+
+
+
 const MyPost = (props) => {
   let postDataArray = props.postData.map((el) => {
     return <Post massage={el.message} like={el.like} />;
@@ -9,7 +12,7 @@ const MyPost = (props) => {
   let newPostElement = React.createRef();
 
   let addPostClick = () => {
-    props.addPost();
+    props.addPostClick();
   };
 
   let onPostChange = () => {
@@ -18,7 +21,7 @@ const MyPost = (props) => {
   };
 
   return (
-    <div className="">
+    <div>
       <div class="right-bar__post">
         <h1 class="right-bar__title">My Post</h1>
         <textarea

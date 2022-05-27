@@ -1,5 +1,5 @@
 
-
+import React from "react";
 import Friend__Item from "./Friend__Item/Friend__Item";
 import s from "./Friends.module.css";
 

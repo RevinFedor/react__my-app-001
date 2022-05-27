@@ -1,6 +1,6 @@
 import { NavLink, Route, Router } from "react-router-dom";
 import s from "./../Dialogs.module.css";
-
+import React from "react";
 const Massage = (props) => {
   return (
     <div className={s.massage__block_flex}>
@@ -10,7 +10,7 @@ const Massage = (props) => {
           alt="ava"
           className={s.massage__img}
         />
-        <div className={s.massage}>{props.massage}</div>
+        <div className={s.massages__block_txt}>{props.massage}</div>
       </div>
     </div>
   );
