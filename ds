@@ -1,0 +1,66 @@
+[33mcommit 0edb6b1b73e79e00b1c41b67897cddc8e949dcc6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 46466b5 69280e1
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Fri May 27 17:05:41 2022 +0500
+
+    dffdfd
+
+[33mcommit 46466b5854bcebfcf694bd7bfa2e1718806fd5fc[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Fri May 27 16:51:23 2022 +0500
+
+    27/05/22 react-redux
+
+[33mcommit 51488917ce713d9fcd4b0dae291462917733acf2[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Wed May 25 00:12:11 2022 +0500
+
+    25.05.22 | Ex 34, added dll logic on post/message and textarea value
+
+[33mcommit 20699726948d128fb7bd38f255bea831c2e441e4[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 16:29:56 2022 +0500
+
+    22.05.22 | Added css modules and create props
+
+[33mcommit 69280e1161b57a0f560b502a4c2659afb7e61b90[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 16:29:56 2022 +0500
+
+    added css modules and props
+
+[33mcommit 4f4eed73dc91dc11bd43fd4def98948b12467799[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 02:25:21 2022 +0500
+
+    start work
+
+[33mcommit 4a0f72f6339ff27fb6232a0cac07e193add3b5d2[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 02:00:50 2022 +0500
+
+    created file readme
+
+[33mcommit ab7044cd8ad960dcca2d9c20abafd1f9b45c0937[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 01:53:54 2022 +0500
+
+    add ignore
+
+[33mcommit 2bae37e3cf5b9a2f32b1aab65a538188f3c8255d[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 01:49:07 2022 +0500
+
+    test css commit
+
+[33mcommit 4f873880874fb8ef7661421d29148a43e400ff9e[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Sun May 22 01:48:22 2022 +0500
+
+    test commit
+
+[33mcommit 66e3ae242440e7099840e9b5056edfdb8319f172[m
+Author: RevinFedor <fr75793@gmail.com>
+Date:   Wed May 11 18:26:29 2022 +0500
+
+    Initialize project using Create React App

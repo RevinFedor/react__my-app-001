@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { NavLink } from "react-router-dom";
 import s from"./left-bar.module.css";
 import React from "react";
@@ -54,29 +53,6 @@ const LeftBar = () => {
         >
           <li class={s.leftbar__top}>Friends</li>
         </NavLink>
-=======
-import s from"./left-bar.module.css";
-
-const LeftBar = () => {
-  return (
-    <div className={s.leftbar}>
-      <ul class={ `${s.leftbar__list} `}>
-        <a href="#">
-          <li>Profile</li>
-        </a>
-        <a href="#">
-          <li>Message</li>
-        </a>
-        <a href="#">
-          <li>News</li>
-        </a>
-        <a href="#">
-          <li>Music</li>
-        </a>
-        <a href="#">
-          <li class={s.leftbar__top}>Settings</li>
-        </a>
->>>>>>> 69280e1161b57a0f560b502a4c2659afb7e61b90
       </ul>
     </div>
   );
